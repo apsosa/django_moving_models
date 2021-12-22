@@ -1,0 +1,125 @@
+[
+    {
+        "model": "article.blog",
+        "pk": 3,
+        "fields": {
+            "name": "News",
+            "tagline": "Metroplis news"
+        }
+    },
+    {
+        "model": "article.blog",
+        "pk": 4,
+        "fields": {
+            "name": "Science",
+            "tagline": "Pepers"
+        }
+    },
+    {
+        "model": "article.blog",
+        "pk": 5,
+        "fields": {
+            "name": "Geek",
+            "tagline": "Movies, series and more"
+        }
+    },
+    {
+        "model": "article.author",
+        "pk": 1,
+        "fields": {
+            "name": "Clark Kent",
+            "email": "ck@email.com"
+        }
+    },
+    {
+        "model": "article.author",
+        "pk": 2,
+        "fields": {
+            "name": "Jonh DOe",
+            "email": "jd@email.com"
+        }
+    },
+    {
+        "model": "article.author",
+        "pk": 3,
+        "fields": {
+            "name": "Lois Lane",
+            "email": "ll@email.com"
+        }
+    },
+    {
+        "model": "article.post",
+        "pk": 1,
+        "fields": {
+            "articles": 1,
+            "name": "number 1"
+        }
+    },
+    {
+        "model": "article.post",
+        "pk": 2,
+        "fields": {
+            "articles": 2,
+            "name": "number 2"
+        }
+    },
+    {
+        "model": "article.post",
+        "pk": 3,
+        "fields": {
+            "articles": 3,
+            "name": "number 0"
+        }
+    },
+    {
+        "model": "article.entry",
+        "pk": 1,
+        "fields": {
+            "blog": 3,
+            "headline": "More to worry",
+            "body_text": "after the resolucion of...",
+            "pub_date": "2021-12-20",
+            "mod_date": "2021-12-20",
+            "number_of_comments": 1,
+            "number_of_pingbacks": 2,
+            "rating": 2,
+            "authors": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "article.entry",
+        "pk": 2,
+        "fields": {
+            "blog": 3,
+            "headline": "Th museam of Metropolis",
+            "body_text": "About 11am of the Sunday morning...",
+            "pub_date": "2021-12-20",
+            "mod_date": "2021-12-20",
+            "number_of_comments": 3,
+            "number_of_pingbacks": 4,
+            "rating": 9,
+            "authors": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "article.entry",
+        "pk": 3,
+        "fields": {
+            "blog": 5,
+            "headline": "Premier of the witcher",
+            "body_text": "This weekend...",
+            "pub_date": "2021-12-20",
+            "mod_date": "2021-12-20",
+            "number_of_comments": 3,
+            "number_of_pingbacks": 2,
+            "rating": 3,
+            "authors": [
+                2
+            ]
+        }
+    }
+]
